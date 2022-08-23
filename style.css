@@ -10,7 +10,6 @@ H1 {
 /* header  */
 header {
     display: flex;
-    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -25,24 +24,31 @@ nav a {
 #Sonny {
     display: flex;
     align-items: center;
-    padding: 5rem;
+    padding: 4rem;
     flex-direction: column;
     background: url(Images/City\ background.jpg) #676670 no-repeat center;
     background-size: cover;
 }
 
+#Sonny {
+    color: white;
+}
+
 #Sonny h1 {
     margin: 1rem 0;
-    color: white;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: normal;
 }
 
-#Sonny p {
-    color: white;
-    font-size: 1.2rem;
+#Sonny h4 {
+    font-size: 1.5rem;
     display: inline-block;
-    /* padding-top: ; */
+    font-weight: 400;
+    margin: -1rem 0 1rem ;
+}
+
+#Sonny p {
+    padding: -1rem; 
 }
 
 #Aboutme{

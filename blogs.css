@@ -38,3 +38,17 @@ footer {
     padding-top: 6rem;
 }
 
+#Mydog {
+    display: flex;
+    padding: 13rem;
+    background: url(images/Benny.jpeg) #6a6b6b no-repeat center;
+    background-size: cover;
+    
+}
+
+#PS5 {
+    display: flex;
+    padding: 13rem;
+    background: url(images/PS5.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
