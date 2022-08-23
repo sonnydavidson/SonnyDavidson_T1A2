@@ -1,0 +1,22 @@
+body {
+    margin: 0%;
+}
+
+H1 {
+    align-items: center;
+    justify-content: center;
+}
+
+/* header  */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a {
+    color: #6a6b6b;
+    /* font-family: ; */
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
