@@ -52,3 +52,21 @@ footer {
     background: url(images/PS5.jpg) #6a6b6b no-repeat center;
     background-size: cover;
 }
+
+p {
+    margin: 1rem;
+}
+
+#Art {
+    display: flex;
+    padding: 13rem;
+    background: url(images/Art.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
+
+#Car {
+    display: flex;
+    padding: 13rem;
+    background: url(images/Car.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}

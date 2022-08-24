@@ -2,9 +2,8 @@ body {
     margin: 0%;
 }
 
-H1 {
-    align-items: center;
-    justify-content: center;
+footer {
+    text-align: center;
 }
 
 /* header  */
@@ -21,6 +20,17 @@ nav a {
 }
  
 /* sonny */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 15vh;
+    padding: 8rem 8rem;
+   margin: 5rem 0;
+}
+
+
 #Sonny {
     display: flex;
     align-items: center;
@@ -36,28 +46,26 @@ nav a {
 
 #Sonny h1 {
     margin: 1rem 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: normal;
+    padding-top: 6rem;
 }
 
 #Sonny h4 {
-    font-size: 1.5rem;
-    display: inline-block;
+    font-size: 1.7rem;
     font-weight: 400;
     margin: -1rem 0 1rem ;
 }
 
-#Sonny p {
-    padding: -1rem; 
+#Sonny div {
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
+/* about me  */
 #Aboutme{
    color: #525252;
    text-align: center;
-}
-
-footer {
-    text-align: center;
 }
 
 main {
@@ -68,4 +76,31 @@ main {
 main a {
     text-decoration: none;
     color: #6a6b6b;
+}
+
+/* blog post page header */
+#Blogposts h2{
+    background-color: #676670;
+    color: white;
+    height: 3rem;
+   padding-top: 1rem;
+}
+
+/* images on blog posts page */
+main article img {
+    height: 25rem;
+    width: 40rem;
+    border: 2px solid #525252;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+/* take a look around  */
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: left;
+    width: 40vw;
+    
+    /* height: 30vw; */
 }
