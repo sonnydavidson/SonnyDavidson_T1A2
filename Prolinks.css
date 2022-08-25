@@ -20,3 +20,11 @@ nav a {
     text-decoration: none;
     margin: 0 0.3rem;
 }
+
+main{
+    text-align: center;
+}
+
+footer {
+    text-align: center
+}

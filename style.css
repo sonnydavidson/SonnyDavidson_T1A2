@@ -25,7 +25,7 @@ nav a {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 15vh;
+    height: 8vh;
     padding: 8rem 8rem;
    margin: 5rem 0;
 }
@@ -34,7 +34,7 @@ nav a {
 #Sonny {
     display: flex;
     align-items: center;
-    padding: 4rem;
+    padding: 3rem;
     flex-direction: column;
     background: url(Images/City\ background.jpg) #676670 no-repeat center;
     background-size: cover;
@@ -48,7 +48,7 @@ nav a {
     margin: 1rem 0;
     font-size: 3rem;
     font-weight: normal;
-    padding-top: 6rem;
+    padding-top: 1rem;
 }
 
 #Sonny h4 {
@@ -68,22 +68,58 @@ nav a {
    text-align: center;
 }
 
-main {
-    text-align: center;
-    color:#525252;
+#Aboutme p {
+    font-size: 1.1rem;
 }
 
-main a {
-    text-decoration: none;
-    color: #6a6b6b;
+#Aboutme h2 {
+    font-size: 1.7rem;
+   margin-top: 0.7rem;
 }
 
-/* blog post page header */
+/* take a look around home page  */
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+   text-align: center;
+    color: #525252;
+    margin: 0 10rem;
+    padding-bottom: 1.5rem;
+}
+
+/* blog post page header */ 
 #Blogposts h2{
-    background-color: #676670;
+    display: flex;
+    align-items: center;
+    padding: 8rem;
+    flex-direction: column;
+    background: url(Images/BlogBG.jpg) #676670 no-repeat center;
+    background-size: cover;
+    font-size: 3rem;
+}
+
+/* Social links  */
+#social-links {
+    display: flex;
+    justify-content: center;
+    background-color: #6a6b6b;
     color: white;
-    height: 3rem;
-   padding-top: 1rem;
+    text-align: center;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#social-links p {
+    margin: 0 0 0.5rem;
+}
+
+#social-links #Github{
+    height: 50px;
+
 }
 
 /* images on blog posts page */
@@ -93,14 +129,4 @@ main article img {
     border: 2px solid #525252;
     display: inline-block;
     margin-top: 2rem;
-}
-
-/* take a look around  */
-section h2 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    text-align: left;
-    width: 40vw;
-    
-    /* height: 30vw; */
 }
