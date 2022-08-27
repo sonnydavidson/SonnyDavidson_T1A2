@@ -20,7 +20,18 @@ nav a {
     text-decoration: none;
     margin: 0 0.3rem;
 }
+
+nav #MySkills:hover {
+    font-size: large;
+}
  
+nav #BlogPosts:hover {
+    font-size: large;
+}
+
+nav #Home:hover {
+    font-size: large;
+}
 /* sonny */
 
 .container {
@@ -146,6 +157,10 @@ main article img {
 
 .button {
 color: #6a6b6b;
+}
+
+.button:hover {
+    font-size: large;
 }
 
 footer {

@@ -23,6 +23,18 @@ nav a {
     margin: 0 0.3rem;
 }
 
+nav #MySkills:hover {
+    font-size: 1.2rem;
+}
+ 
+nav #Home:hover {
+    font-size: 1.2rem;
+}
+
+nav #BlogPosts:hover {
+    font-size: 1.2rem;
+}
+
 main {
     text-align: center;
     color: #525252;
@@ -72,6 +84,10 @@ footer {
 
 p {
     margin: 1rem;
+}
+
+#Blog:hover {
+    font-size: 1.2rem;
 }
 
 /* Phone View  */
