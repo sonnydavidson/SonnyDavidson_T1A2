@@ -1,5 +1,8 @@
-body {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap); 
+
+body { 
     margin: 0%;
+    font-family: roboto, sans-serif;
 }
 
 H1 {
@@ -16,16 +19,8 @@ header {
 
 nav a {
     color: #6a6b6b;
-    /* font-family: ; */
     text-decoration: none;
     margin: 0 0.3rem;
-}
-
-#Soccer {
-    display: flex;
-    padding: 10rem;
-    background: url(images/Soccer.jpeg) #6a6b6b no-repeat center;
-    background-size: cover;
 }
 
 main {
@@ -36,6 +31,14 @@ main {
 footer {
     text-align: center;
     padding-top: 6rem;
+}
+
+/* Blog Pages  */
+#Soccer {
+    display: flex;
+    padding: 10rem;
+    background: url(images/Soccer.jpeg) #6a6b6b no-repeat center;
+    background-size: cover;
 }
 
 #Mydog {
@@ -53,10 +56,6 @@ footer {
     background-size: cover;
 }
 
-p {
-    margin: 1rem;
-}
-
 #Art {
     display: flex;
     padding: 13rem;
@@ -69,4 +68,87 @@ p {
     padding: 13rem;
     background: url(images/Car.jpg) #6a6b6b no-repeat center;
     background-size: cover;
+}
+
+p {
+    margin: 1rem;
+}
+
+/* Phone View  */
+@media screen and (max-width: 500px) {
+    /* Blog Pages  */
+#Soccer {
+    display: flex;
+    padding: 8rem;
+    background: url(images/Soccer.jpeg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
+
+#Mydog {
+    display: flex;
+    padding: 8rem;
+    background: url(images/Benny.jpeg) #6a6b6b no-repeat center;
+    background-size: cover;
+    
+}
+
+#PS5 {
+    display: flex;
+    padding: 8rem;
+    background: url(images/PS5.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
+
+#Art {
+    display: flex;
+    padding: 8rem;
+    background: url(images/Art.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
+
+#Car {
+    display: flex;
+    padding: 8rem;
+    background: url(images/Car.jpg) #6a6b6b no-repeat center;
+    background-size: cover;
+}
+}
+
+/* Computer View  */
+@media screen and (min-width: 900px) {
+    #Soccer {
+        display: flex;
+        padding: 20rem;
+        background: url(images/Soccer.jpeg) #6a6b6b no-repeat center;
+        background-size: cover;
+    }
+    
+    #Mydog {
+        display: flex;
+        padding: 22rem;
+        background: url(images/Benny.jpeg) #6a6b6b no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    #PS5 {
+        display: flex;
+        padding: 20rem;
+        background: url(images/PS5.jpg) #6a6b6b no-repeat center;
+        background-size: cover;
+    }
+    
+    #Art {
+        display: flex;
+        padding: 20rem;
+        background: url(images/Art.jpg) #6a6b6b no-repeat center;
+        background-size: cover;
+    }
+    
+    #Car {
+        display: flex;
+        padding: 20rem;
+        background: url(images/Car.jpg) #6a6b6b no-repeat center;
+        background-size: cover;
+    }
 }
