@@ -1,6 +1,6 @@
 # SonnyDavidson_T1A2-Portfolio
 
-<p> <a target="_blank" href= " https://github.com/sonnydavidson/SonnyDavidson_T1A2-Portfolio.git "> Git Repo </a> </p>
+<p> <a target="_blank" href= " https://github.com/sonnydavidson/SonnyDavidson_T1A2.git "> Git Repo </a> </p>
 <p> <a target="_blank" href= " https://630abf88fbefa962dfc70e60--calm-empanada-7ef853.netlify.app/index.html "> Netlify link </a> </p>
 
 <h2> Purpose </h2>
