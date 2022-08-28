@@ -2,6 +2,7 @@
 
 <p> <a target="_blank" href="https://github.com/sonnydavidson/SonnyDavidson_T1A2.git "> Git Repo </a> </p>
 <p> <a target="_blank" href="https://630abf88fbefa962dfc70e60--calm-empanada-7ef853.netlify.app/index.html "> Netlify link </a> </p>
+<p> <a target="_blank" href="https://youtu.be/K730RzlU3gc "> Link to Voice over of portfolio </a> </p>
 
 <h2> Purpose </h2>
 <p> The purpose of this portfolio is to show the skills i have when it comes to ccs and html as a young web devloper. also alowing me to promte myself at the same time. </p>
