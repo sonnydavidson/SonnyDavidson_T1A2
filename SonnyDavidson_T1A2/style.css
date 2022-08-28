@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap); 
+
+body { 
+    margin: 0%;
+    font-family: roboto, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+/* header  */
+header {
+    display: flex;
+    padding: 1rem;
+}
+
+nav a {
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+
+nav #MySkills:hover {
+    font-size: large;
+}
+ 
+nav #BlogPosts:hover {
+    font-size: large;
+}
+
+nav #Home:hover {
+    font-size: large;
+}
+/* sonny */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 8vh;
+    padding: 8rem 8rem;
+   margin: 5rem 0;
+}
+
+
+#Sonny {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    flex-direction: column;
+    background: url(Images/City\ background.jpg) #676670 no-repeat center;
+    background-size: cover;
+}
+
+#Sonny {
+    color: white;
+}
+
+#Sonny h1 {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+#Sonny h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: -1rem 0 1rem ;
+}
+
+#Sonny div {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+/* about me  */
+#Aboutme{
+   color: #525252;
+   text-align: center;
+}
+
+#Aboutme p {
+    font-size: 1.1rem;
+}
+
+#Aboutme h2 {
+    font-size: 1.7rem;
+   margin-top: 0.7rem;
+}
+
+p {
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+/* take a look around home page  */
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+   text-align: center;
+    color: #525252;
+    margin: 0 10rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Social links  */
+#social-links {
+    display: flex;
+    justify-content: center;
+    background-color: #6a6b6b;
+    color: white;
+    text-align: center;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#social-links p {
+    margin: 0.3rem 0 0.4rem;
+}
+
+#social-links #Github{
+    height: 50px;
+
+}
+
+/* blog post page header */ 
+#Blogposts h2{
+    display: flex;
+    padding: 8rem;
+    flex-direction: column;
+    background: url(Images/BlogBG.jpg) #676670 no-repeat center;
+    background-size: cover;
+    font-size: 3rem;
+    color: white;
+    margin-top: .4rem;
+}
+
+#Blogposts {
+text-align: center;
+color: #525252;
+}
+
+/* images on blog posts page */
+main article img {
+    height: 25rem;
+    width: 40rem;
+    border: 2px solid #525252;
+    display: inline-block;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.button {
+color: #6a6b6b;
+}
+
+.button:hover {
+    font-size: large;
+}
+
+footer {
+    padding-top: 1rem;
+}
+
+/* Phone View  */
+@media screen and (max-width: 500px) {
+    /* Home Page  */
+    #Sonny {
+        display: flex;
+        align-items: center;
+        height: 17rem;
+        flex-direction: column;
+        background: url(Images/City\ background.jpg) #676670 no-repeat center;
+        background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 8vh;
+        padding: 1rem 0rem;
+       margin: 2rem 0;
+    }
+
+    #Aboutme p {
+        font-size: 1.1rem;
+        margin: 1rem 1rem;
+    }
+
+    /* take a look around home page  */
+    section h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #525252;
+    margin: 0 2rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Blog Page  */
+
+/* blog post page header */ 
+#Blogposts h2{
+    display: flex;
+    padding: 6rem;
+    flex-direction: column;
+    background: url(Images/BlogBG.jpg) #676670 no-repeat center;
+    background-size: cover;
+    font-size: 2rem;
+    color: white;
+    margin-top: .4rem;
+}
+
+
+/* images on blog posts page */
+main article img {
+    height: 14rem;
+    width: 22rem;
+    border: 2px solid #525252;
+    display: inline-block;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+}

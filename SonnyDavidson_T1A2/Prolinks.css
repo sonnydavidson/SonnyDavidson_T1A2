@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap); 
+
+body { 
+    margin: 0%;
+    font-family: roboto, sans-serif;
+}
+
+H1 {
+    align-items: center;
+    justify-content: center;
+}
+
+/* header  */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a {
+    color: #6a6b6b;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+
+nav #Home:hover {
+    font-size: large;
+}
+
+nav #BlogPosts:hover {
+    font-size: large;
+}
+
+/* Main conetent of page  */
+main{
+    text-align: center;
+    color: #525252;
+    flex-direction: column;
+}
+
+main h2 {
+    background: url(images/Skills.jpg) #676670 center;
+    background-size: cover;
+    height: 15rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 5rem;
+    margin-top: .4rem;
+}
+
+main a {
+    color: #6a6b6b;
+}
+
+/* Social links  */
+#social-links {
+    display: flex;
+    justify-content: center;
+    background-color: #6a6b6b;
+    color: white;
+    text-align: center;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#social-links p {
+    margin: 0.3rem 0 0.4rem;
+}
+
+#social-links #Github{
+    height: 50px;
+
+}
+
+footer {
+    text-align: center
+}
+
+/* Phone View  */
+@media screen and (max-width: 500px) {
+    main h2 {
+        background: url(images/Skills.jpg) #676670 center;
+        background-size: cover;
+        height: 10rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 5rem;
+        margin-top: .4rem;
+    }
+}
+
+/* Computer View  */
+@media screen and (min-width: 900px) {
+    main h2 {
+        background: url(images/Skills.jpg) #676670 center;
+        background-size: cover;
+        height: 25rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 5rem;
+        margin-top: .4rem;
+        font-size: 3rem;
+    }
+    
+}
